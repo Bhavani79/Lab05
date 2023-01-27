@@ -1,16 +1,19 @@
-package Lab05;
+package New;
 
-public class Class {
-	class Main {
+import static org.junit.jupiter.api.Assertions.*;
 
-		  public static void main(String[] args) {
-		    
-		    int first = 10;
-		    int second = 20;
+import org.junit.jupiter.api.Test;
 
-		    // add two numbers
-		    int sum = first + second;
-		    System.out.println(first + " + " + second + " = "  + sum);
-		  }
-		}
+class Lab5 {
+
+	@Test
+	void test() {
+		int a=10,b=20;
+		int sum=a+b;
+		
+ 
+	}
+
 }
+
+
